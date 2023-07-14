@@ -2,7 +2,7 @@ package validator
 
 import (
 	"github.com/go-playground/validator/v10"
-	"github.com/solodba/mcube/common/logger"
+	"github.com/solodba/mcube/logger"
 )
 
 var (

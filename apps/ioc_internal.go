@@ -1,6 +1,6 @@
 package apps
 
-import "github.com/solodba/mcube/common/logger"
+import "github.com/solodba/mcube/logger"
 
 // 内部实例映射
 var (

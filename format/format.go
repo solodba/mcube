@@ -3,7 +3,7 @@ package format
 import (
 	"encoding/json"
 
-	"github.com/solodba/mcube/common/logger"
+	"github.com/solodba/mcube/logger"
 )
 
 // json格式化输出

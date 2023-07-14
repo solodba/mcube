@@ -1,7 +1,7 @@
 package apps
 
 import (
-	"github.com/solodba/mcube/common/logger"
+	"github.com/solodba/mcube/logger"
 	"google.golang.org/grpc"
 )
 

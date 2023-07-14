@@ -9,7 +9,7 @@ import (
 	"github.com/infraboard/mcube/http/restful/accessor/form"
 	"github.com/infraboard/mcube/http/restful/accessor/yaml"
 	"github.com/infraboard/mcube/http/restful/accessor/yamlk8s"
-	"github.com/solodba/mcube/common/logger"
+	"github.com/solodba/mcube/logger"
 	"google.golang.org/grpc"
 )
 

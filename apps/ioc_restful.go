@@ -2,7 +2,7 @@ package apps
 
 import (
 	"github.com/emicklei/go-restful/v3"
-	"github.com/solodba/mcube/common/logger"
+	"github.com/solodba/mcube/logger"
 )
 
 // 内部实例映射
