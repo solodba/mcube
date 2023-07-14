@@ -4,6 +4,7 @@ package codehorse.mcube.page;
 
 option go_package = "github.com/solodba/mcube/pb/page";
 
+// 分页访问请求
 message PageRequest {
     // @gotags: bson:"page_number" json:"page_number"
     int64 page_number = 1;
