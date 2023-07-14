@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package codehorse.mcube.meta;
 
-option go_package = "github.com/solodba/mcube/common/pb/meta";
+option go_package = "github.com/solodba/mcube/pb/meta";
 
 message Meta {
     // @gotags: bson:"_id" json:"id"

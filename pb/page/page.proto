@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package codehorse.mcube.page;
 
-option go_package = "github.com/solodba/mcube/common/pb/page";
+option go_package = "github.com/solodba/mcube/pb/page";
 
 message PageRequest {
     // @gotags: bson:"page_number" json:"page_number"
