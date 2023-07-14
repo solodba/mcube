@@ -5,6 +5,7 @@ import (
 	"github.com/solodba/mcube/version"
 )
 
+// Swagger文档
 func Docs(swo *spec.Swagger) {
 	swo.Info = &spec.Info{
 		InfoProps: spec.InfoProps{
