@@ -5,7 +5,7 @@ import (
 	"github.com/solodba/mcube/version"
 )
 
-// Swagger文档
+// Mcenter Swagger文档
 func DocsMcenter(swo *spec.Swagger) {
 	swo.Info = &spec.Info{
 		InfoProps: spec.InfoProps{
@@ -29,6 +29,7 @@ func DocsMcenter(swo *spec.Swagger) {
 	}
 }
 
+// Mpaas Swagger文档
 func DocsMpaas(swo *spec.Swagger) {
 	swo.Info = &spec.Info{
 		InfoProps: spec.InfoProps{
