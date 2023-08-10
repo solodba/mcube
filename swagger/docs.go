@@ -29,11 +29,35 @@ func DocsMcenter(swo *spec.Swagger) {
 	}
 }
 
+// Mkube Swagger文档
+func DocsMkube(swo *spec.Swagger) {
+	swo.Info = &spec.Info{
+		InfoProps: spec.InfoProps{
+			Title:       "K8S运维管理中心",
+			Description: "Resource for managing Service Instances",
+			Contact: &spec.ContactInfo{
+				ContactInfoProps: spec.ContactInfoProps{
+					Name:  "john",
+					Email: "john@doe.rp",
+					URL:   "http://johndoe.org",
+				},
+			},
+			License: &spec.License{
+				LicenseProps: spec.LicenseProps{
+					Name: "MIT",
+					URL:  "http://mit.org",
+				},
+			},
+			Version: version.ShortVersion(),
+		},
+	}
+}
+
 // Mpaas Swagger文档
 func DocsMpaas(swo *spec.Swagger) {
 	swo.Info = &spec.Info{
 		InfoProps: spec.InfoProps{
-			Title:       "K8S运维管理中心",
+			Title:       "基于K8S的CI/CD平台",
 			Description: "Resource for managing Service Instances",
 			Contact: &spec.ContactInfo{
 				ContactInfoProps: spec.ContactInfoProps{
