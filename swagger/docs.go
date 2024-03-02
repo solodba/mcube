@@ -124,3 +124,27 @@ func DocsCmdb(swo *spec.Swagger) {
 		},
 	}
 }
+
+// ichatgpt Swagger文档
+func DocsIChatGPT(swo *spec.Swagger) {
+	swo.Info = &spec.Info{
+		InfoProps: spec.InfoProps{
+			Title:       "ChatGPT中心",
+			Description: "my chatgpt center",
+			Contact: &spec.ContactInfo{
+				ContactInfoProps: spec.ContactInfoProps{
+					Name:  "john",
+					Email: "john@doe.rp",
+					URL:   "http://johndoe.org",
+				},
+			},
+			License: &spec.License{
+				LicenseProps: spec.LicenseProps{
+					Name: "MIT",
+					URL:  "http://mit.org",
+				},
+			},
+			Version: version.ShortVersion(),
+		},
+	}
+}
