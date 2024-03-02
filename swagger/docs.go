@@ -130,7 +130,7 @@ func DocsIChatGPT(swo *spec.Swagger) {
 	swo.Info = &spec.Info{
 		InfoProps: spec.InfoProps{
 			Title:       "ChatGPT中心",
-			Description: "my chatgpt center",
+			Description: "my ichatgpt center",
 			Contact: &spec.ContactInfo{
 				ContactInfoProps: spec.ContactInfoProps{
 					Name:  "john",
